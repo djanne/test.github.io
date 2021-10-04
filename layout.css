@@ -1,0 +1,87 @@
+.navbar .navbar-nav > a {
+    
+    
+    color: white !important;
+    text-decoration-color: red;
+  }
+  
+  .navbar .navbar-collapse > a {
+    text-align: center;
+    color: white;
+    
+  }
+
+   .nav-link  {
+      color:whitesmoke !important;
+      
+  }
+
+body {
+    background-color:silver;
+  }
+
+.logo-img {
+height: 50px;
+width: 50px;
+text-decoration: none;
+
+}
+
+.logo > a {
+  text-decoration: none;
+}
+
+#carouselExampleFade{
+
+position: relative;
+}
+
+.navbar-wrapper {
+  position:relative;
+}
+.carousel {
+  top:0;
+}
+.carousel-inner {
+  width: 100%; 
+  overflow: hidden;
+  }
+.navbar {
+  position:absolute;
+  top:0;
+  z-index:10;
+  background: rgb(0, 0, 0); opacity: 0.85;
+  width:100%;
+  
+}
+
+
+
+
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black !important;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: rgb(184, 18, 18);
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
